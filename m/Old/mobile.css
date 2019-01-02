@@ -1,0 +1,25 @@
+.academic-mobile-nav-container {
+  border-radius: 0;
+  padding: 0;
+  box-shadow: none;
+  background-color: rgb(47, 209, 211);
+  border: 0;
+  font-size: 18px;
+}
+
+.academic-mobile-nav-container .academic-mobile-nav  {
+  border: 1px solid white;
+  background-color: rgb(47, 209, 211);
+  padding: 10px;
+  text-align: center;
+}
+
+
+.academic-mobile-nav-container .academic-mobile-nav a {
+    color: white;
+    width: 100%;
+}
+
+.banner {
+  width: 100%;
+}

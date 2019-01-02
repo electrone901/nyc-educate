@@ -1,0 +1,294 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.academic-mobile-nav-container {
+    border-radius: 0;
+    padding: 0;
+    box-shadow: none;
+/*    background-color: rgb(47, 209, 211);*/
+    border: 0;
+    font-size: 20px;
+}
+
+.academic-mobile-nav-container .academic-mobile-nav  {
+    border-bottom: 2px solid white;
+    background-color: rgb(47, 209, 211);
+    color: white;
+    display: block;
+/*    height: 48px;*/
+    position: relative;
+}
+
+.academic-mobile-nav-container .academic-mobile-nav .text {
+    display: block;
+    padding: 14px 58px 14px 14px;
+}
+
+.academic-mobile-nav-container .academic-mobile-nav .arrow {
+    background: rgb(9, 171, 175) url(images/rightArrow.png) center center no-repeat;
+    background-size: 70% auto;
+/*    float: right;*/
+    width: 44px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.banner {
+    width: 100%;
+}
+
+.top-nav {
+    background: url(images/nyceducate-int.png) 8% center no-repeat;
+    background-size: auto 45%;
+    height: 40px;
+}
+
+.top-nav img {
+    height: 100%;
+}
+
+.top-nav .language-switch {
+    display: inline-block;
+    float: right;
+}
+
+.bottom-nav {
+}
+
+.bottom-nav .row {
+    height: 80px;
+}
+
+.bottom-nav .link {
+    background-position: center 20%;
+    background-repeat: no-repeat;
+    background-size: auto 50%;
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.bottom-nav .link .text {
+    display: inline-block;
+    margin-top: 55px;
+}
+
+.bottom-nav .link.home {
+    background-color: rgb(173, 209, 56);
+    background-image: url(images/globe.png);
+}
+
+.bottom-nav .link.contact {
+    background-color: rgb(233, 203, 7);
+    background-image: url(images/paperairplane.png);
+}
+
+.bottom-nav .link.about {
+    background-color: rgb(250, 92, 69);
+    background-image: url(images/pencil.png);
+}
+
+.bottom-nav .link.glossary {
+    background-color: rgb(255, 150, 43);
+    background-image: url(images/notepad.png);
+}
+
+.logo-affliate-container {
+    height: 45px;
+    padding: 5px;
+}
+
+.logo-affliate-container img {
+    height: 100%;
+}
+
+.logo-affliate-container a {
+    display: inline-block;
+}
+
+.logo-affliate-container .lehman {
+}
+
+.logo-affliate-container .lehmanLogo {
+    width: 100px;
+}
+
+.logo-affliate-container .deutch {
+    width: 40%;
+    text-align: center;
+}
+
+.logo-affliate-container .cuny {
+    float: right;
+}
+
+.copy-right-container {
+    background-color: rgb(173, 209, 56);
+    color: white;
+    font-size: 12px;
+    line-height: 1.5em; 
+    padding: 10px 0 40px 0;
+    text-align: center;
+}
+
+
+/* Information pages */
+.info-header {
+    color: rgb(99, 99, 99);
+    font-size: 18px;
+    line-height: 1.3em;
+    padding: 20px;
+    text-align: center;
+}
+
+.info-header h1 {
+    font-weight: bold;
+    font-size: 19px;
+    margin: 0.25em auto 0.5em;
+}
+
+.info-content {
+    padding: 16px;
+    color: rgb(99, 99, 99);
+    font-size: 18px;
+    line-height: 1.3em;
+    
+}
+    
+.info-content p {
+    margin-top: 1em;
+}
+
+.info-content p:first-child {
+    margin-top: 0;
+}
+
+
+
+
+
+.info-content a:link {
+    color: #09abaf;
+}
+
+.info-content a:visited {
+    color: #09abaf;
+}
+
+.info-content a:hover {
+    color: #2fd1d3;
+    text-decoration: none;
+}
+
+.info-content a:active {
+    color: #09abaf;
+}
+
+
+.glossary {
+    text-align: left;
+}
+
+
+.glossary a:link {
+    color: #09abaf;
+}
+
+.glossary a:visited {
+    color: #09abaf;
+}
+
+.glossary a:hover {
+    color: #2fd1d3;
+    text-decoration: none;
+}
+
+.glossary a:active {
+    color: #09abaf;
+}
+
+
+.info-header a:link {
+    color: #09abaf;
+}
+
+.info-header a:visited {
+    color: #09abaf;
+}
+
+.info-header a:hover {
+    color: #2fd1d3;
+    text-decoration: none;
+}
+
+.info-header a:active {
+    color: #09abaf;
+}
+
+
+.list {
+     list-style:disc outside none;
+     display:list-item;
+     padding: 16px; 
+     }
+     
+strong { 
+    font-weight: bold;
+}
+
+em { 
+    font-style: italic;
+}
+
+sup { 
+    vertical-align: super;
+    font-size: smaller;
+}
+
+.proof {
+	margin-left: 20px;
+	
+	}
+
+.academic-mobile-nav-container.info-page {
+}
+
+.academic-mobile-nav-container.info-page .academic-mobile-nav {
+}
+
+.academic-mobile-nav-container.info-page .academic-mobile-nav .text {
+}
+
+.academic-mobile-nav-container.info-page .academic-mobile-nav .arrow {
+    background-image: url(images/mobile-arrow.png);
+    background-size: 25% auto;
+    transform: rotate(180deg);
+}
+
+.academic-mobile-nav-container.info-page .academic-mobile-nav.ui-accordion-header-active .arrow {
+    transform: rotate(0deg);
+}
+
+.subscribe-for-updates{
+    border-bottom: 2px solid white;
+    background-color: rgb(47, 209, 211);
+    color: white;
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+.subscribe-for-updates .text{
+    display: block;
+    padding: 20px 0px 20px 0px;
+}
